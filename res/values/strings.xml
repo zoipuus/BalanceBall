@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BalanceBall</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_select_level">选择关卡</string>
+    <string name="tv_challenge_time">挑战时间</string>
+    <string name="tv_access_integral">赚取积分</string>
+    <string name="tv_share_game">微博分享</string>
+    <string name="tv_game_help">游戏帮助</string>
+    <string name="tv_game_setting">游戏设置</string>
+    <string name="tv_exit_game">离开游戏</string>
+    <string name="tv_exit_message">是否离开游戏？</string>
+    <string name="tv_sure">确定</string>
+    <string name="tv_cancel">取消</string>
+    <string name="tv_back">返回</string>
+    <string name="tv_finish_game">游戏结束</string>
+    <string name="tv_finish_dialog_next">下一关</string>
+    <string name="tv_finish_dialog_retry">重玩</string>
+    <string name="tv_finish_dialog_home">返回</string>
+    <string name="tv_dialog_progress">资源加载中…</string>
+    <string name="tv_Vibrate">开启震动</string>
+    <string name="tv_palyMusic">开启音效</string>
+    <string name="tv_SpotAds">开启广告</string>
+    <string name="tv_lingMinDu">灵敏度</string>
+    <string name="tv_help_msg">  游戏简介：游戏时有相应的奖励等着你来拿，当然你得躲避那些陷阱，通关后下一关即可解锁。</string>
+    <string name="tv_detonate">碰到这个时会触发相应的陷阱</string>
+    <string name="tv_hole">碰到时游戏结束</string>
+    <string name="tv_triangle">碰到时游戏结束</string>
+    <string name="tv_unkown">碰到时1/3的几率游戏结束，1/3的几率会没事，1/3的几率会得到10积分奖励</string>
+    <string name="tv_lock">碰到时可以使用钥匙或消费20积分进行解锁</string>
+
+    <!-- 微博授权 -->
+    <string name="weibosdk_demo_toast_auth_success">授权成功</string>
+    <string name="weibosdk_demo_toast_auth_failed">授权失败</string>
+    <string name="weibosdk_demo_toast_auth_canceled">取消授权</string>
+
+    <!-- 分享微博主界面 -->
+    <string name="weibosdk_demo_share_to_weibo_title">微博分享</string>
+    <string name="weibosdk_demo_share_to">分  享</string>
+    <string name="weibosdk_demo_share_text_title">分享文字</string>
+    <string name="weibosdk_demo_share_image_title">分享图片</string>
+
+    <!-- 分享微博入口界面 -->
+    <string name="weibosdk_demo_not_support_api_hint">微博客户端不支持 SDK 分享或微博客户端未安装或微博客户端是非官方版本。</string>
+
+    <!-- 分享示例模板 -->
+    <string name="weibosdk_demo_share_text_template">我正在玩BalanceBall这款游戏。</string>
+    <string name="weibosdk_app_url">（分享自BalanceBall http://www.eoemarket.com/game/404048.html )</string>
+    <string name="weibosdk_share_chose_one">请选择需要分享的内容</string>
+    <string name="weibosdk_share_chose_image">请选择需要分享的图片</string>
+
+    <!-- 分享成功失败的 Toast -->
+    <string name="weibosdk_demo_toast_share_success">分享成功</string>
+    <string name="weibosdk_demo_toast_share_failed">分享失败</string>
+    <string name="weibosdk_demo_toast_share_canceled">取消分享</string>
+
+</resources>

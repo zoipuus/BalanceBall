@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/Vibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/isVibrate"
+            android:layout_alignBottom="@+id/isVibrate"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:text="@string/tv_Vibrate"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/isVibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/isplayMusicCB"
+            android:layout_alignBottom="@+id/isplayMusicCB"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:text="@string/tv_palyMusic"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/isplayMusicCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/isVibrate"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tvSpotAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/isSpotAds"
+            android:layout_alignBottom="@+id/isSpotAds"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:text="@string/tv_SpotAds"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/isSpotAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/isplayMusicCB"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/isSpotAds"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/Vibrate"
+            android:max="50" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/seekBar1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="18dp"
+            android:text="@string/tv_lingMinDu"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/btn_SettingBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/seekBar1"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_back"
+            android:text="@string/tv_back"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</ScrollView>
